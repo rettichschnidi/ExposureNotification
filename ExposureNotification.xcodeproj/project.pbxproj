@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6A5334DD24B6D7E700602617 /* ENShims.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENShims.h; sourceTree = "<group>"; };
+		6A5334E224B6DA0400602617 /* ExposureNotification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposureNotification.framework; path = System/Library/Frameworks/ExposureNotification.framework; sourceTree = SDKROOT; };
+		6AB1253C24C20781000BF3E7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9246B35124ABABCC0065B0D5 /* ENAdvertisementDatabase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ENAdvertisementDatabase.mm; sourceTree = "<group>"; };
+		9246B35324ABABCC0065B0D5 /* ENQueryFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENQueryFilter.h; sourceTree = "<group>"; };
+		9246B35424ABABCC0065B0D5 /* ENQueryFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENQueryFilter.m; sourceTree = "<group>"; };
+		9246B35524ABABCC0065B0D5 /* ENAdvertisement_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAdvertisement_Private.h; sourceTree = "<group>"; };
+		9246B35624ABABCC0065B0D5 /* ENAdvertisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAdvertisement.h; sourceTree = "<group>"; };
+		9246B35724ABABCC0065B0D5 /* ENAdvertisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAdvertisement.m; sourceTree = "<group>"; };
+		9246B35824ABABCC0065B0D5 /* ENAdvertisementDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAdvertisementDatabase.h; sourceTree = "<group>"; };
+		9246B35924ABABCC0065B0D5 /* ENAdvertisementDatabaseQuerySession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAdvertisementDatabaseQuerySession_Private.h; sourceTree = "<group>"; };
+		9246B35A24ABABCD0065B0D5 /* ENAdvertisementDatabaseQuerySession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAdvertisementDatabaseQuerySession.m; sourceTree = "<group>"; };
+		9246B35C24ABABCD0065B0D5 /* ENAdvertisementSQLiteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAdvertisementSQLiteStore.h; sourceTree = "<group>"; };
+		9246B35D24ABABCD0065B0D5 /* en_sqlite_rpi_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = en_sqlite_rpi_buffer.c; sourceTree = "<group>"; };
+		9246B35E24ABABCD0065B0D5 /* ENAdvertisementSQLiteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAdvertisementSQLiteStore.m; sourceTree = "<group>"; };
+		9246B35F24ABABCD0065B0D5 /* en_sqlite_rpi_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = en_sqlite_rpi_buffer.h; sourceTree = "<group>"; };
+		9246B36024ABABCD0065B0D5 /* ENAdvertisementDatabaseQuerySession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAdvertisementDatabaseQuerySession.h; sourceTree = "<group>"; };
+		9246B37024ABABFD0065B0D5 /* ENFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENFile.m; sourceTree = "<group>"; };
+		9246B37224ABABFD0065B0D5 /* ENInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENInternal.h; sourceTree = "<group>"; };
+		9246B37524ABABFD0065B0D5 /* ENProtobufUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENProtobufUtils.m; sourceTree = "<group>"; };
+		9246B37624ABABFD0065B0D5 /* ENCommonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCommonPrivate.h; sourceTree = "<group>"; };
+		9246B37724ABABFD0065B0D5 /* ENCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCommon.m; sourceTree = "<group>"; };
+		9246B37C24ABABFD0065B0D5 /* ENFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENFile.h; sourceTree = "<group>"; };
+		9246B38224ABABFE0065B0D5 /* ENProtobufUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENProtobufUtils.h; sourceTree = "<group>"; };
+		9246B3D024ABB1590065B0D5 /* ExposureNotificationManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExposureNotificationManager.mm; sourceTree = "<group>"; };
+		9246B3D724AC01B90065B0D5 /* ENFileSignatureVerification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENFileSignatureVerification.h; sourceTree = "<group>"; };
+		9246B3D824AC01B90065B0D5 /* ENFileSignatureVerification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENFileSignatureVerification.m; sourceTree = "<group>"; };
+		92585BD124B651DB008F6BC9 /* ExposureNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExposureNotificationManager.h; sourceTree = "<group>"; };
+		92585BD424B653E3008F6BC9 /* ENExposureDetectionDaemonSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENExposureDetectionDaemonSession.h; sourceTree = "<group>"; };
+		92585BD524B653E3008F6BC9 /* ENExposureDetectionDaemonSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENExposureDetectionDaemonSession.m; sourceTree = "<group>"; };
+		9278266B24B7EF2D00F0183A /* ENExposureDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENExposureDetection.m; sourceTree = "<group>"; };
+		9278269B24B8DEC700F0183A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92F9DFBC24B6933D008E4087 /* ENCryptography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENCryptography.h; sourceTree = "<group>"; };
+		92F9DFBD24B6933D008E4087 /* ENCryptography.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENCryptography.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6A5334DC24B6D7D300602617 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6A5334DD24B6D7E700602617 /* ENShims.h */,
+				9246B37724ABABFD0065B0D5 /* ENCommon.m */,
+				9246B37624ABABFD0065B0D5 /* ENCommonPrivate.h */,
+				9246B37224ABABFD0065B0D5 /* ENInternal.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6A5334E124B6DA0400602617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5334E224B6DA0400602617 /* ExposureNotification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9246B33C24ABAA930065B0D5 = {
+			isa = PBXGroup;
+			children = (
+				6AB1253C24C20781000BF3E7 /* LICENSE */,
+				9278269B24B8DEC700F0183A /* README.md */,
+				6A5334DC24B6D7D300602617 /* Common */,
+				9246B3D624ABB3590065B0D5 /* File Signature Validation */,
+				9246B3D524ABB2B90065B0D5 /* Cryptography */,
+				9246B3D424ABB2980065B0D5 /* Advertisement Matching and Scoring */,
+				9246B3D324ABB2830065B0D5 /* Bluetooth Hardware Integration */,
+				6A5334E124B6DA0400602617 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9246B3D324ABB2830065B0D5 /* Bluetooth Hardware Integration */ = {
+			isa = PBXGroup;
+			children = (
+				92585BD124B651DB008F6BC9 /* ExposureNotificationManager.h */,
+				9246B3D024ABB1590065B0D5 /* ExposureNotificationManager.mm */,
+			);
+			path = "Bluetooth Hardware Integration";
+			sourceTree = "<group>";
+		};
+		9246B3D424ABB2980065B0D5 /* Advertisement Matching and Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				92585BD424B653E3008F6BC9 /* ENExposureDetectionDaemonSession.h */,
+				92585BD524B653E3008F6BC9 /* ENExposureDetectionDaemonSession.m */,
+				9278266B24B7EF2D00F0183A /* ENExposureDetection.m */,
+				9246B35624ABABCC0065B0D5 /* ENAdvertisement.h */,
+				9246B35524ABABCC0065B0D5 /* ENAdvertisement_Private.h */,
+				9246B35724ABABCC0065B0D5 /* ENAdvertisement.m */,
+				9246B35824ABABCC0065B0D5 /* ENAdvertisementDatabase.h */,
+				9246B35124ABABCC0065B0D5 /* ENAdvertisementDatabase.mm */,
+				9246B35924ABABCC0065B0D5 /* ENAdvertisementDatabaseQuerySession_Private.h */,
+				9246B36024ABABCD0065B0D5 /* ENAdvertisementDatabaseQuerySession.h */,
+				9246B35A24ABABCD0065B0D5 /* ENAdvertisementDatabaseQuerySession.m */,
+				9246B35324ABABCC0065B0D5 /* ENQueryFilter.h */,
+				9246B35424ABABCC0065B0D5 /* ENQueryFilter.m */,
+				9246B35C24ABABCD0065B0D5 /* ENAdvertisementSQLiteStore.h */,
+				9246B35E24ABABCD0065B0D5 /* ENAdvertisementSQLiteStore.m */,
+				9246B35F24ABABCD0065B0D5 /* en_sqlite_rpi_buffer.h */,
+				9246B35D24ABABCD0065B0D5 /* en_sqlite_rpi_buffer.c */,
+			);
+			path = "Advertisement Matching and Scoring";
+			sourceTree = "<group>";
+		};
+		9246B3D524ABB2B90065B0D5 /* Cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				92F9DFBC24B6933D008E4087 /* ENCryptography.h */,
+				92F9DFBD24B6933D008E4087 /* ENCryptography.m */,
+			);
+			path = Cryptography;
+			sourceTree = "<group>";
+		};
+		9246B3D624ABB3590065B0D5 /* File Signature Validation */ = {
+			isa = PBXGroup;
+			children = (
+				9246B37C24ABABFD0065B0D5 /* ENFile.h */,
+				9246B37024ABABFD0065B0D5 /* ENFile.m */,
+				9246B38224ABABFE0065B0D5 /* ENProtobufUtils.h */,
+				9246B37524ABABFD0065B0D5 /* ENProtobufUtils.m */,
+				9246B3D724AC01B90065B0D5 /* ENFileSignatureVerification.h */,
+				9246B3D824AC01B90065B0D5 /* ENFileSignatureVerification.m */,
+			);
+			path = "File Signature Validation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		9246B33D24ABAA930065B0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Apple Inc";
+			};
+			buildConfigurationList = 9246B34024ABAA930065B0D5 /* Build configuration list for PBXProject "ExposureNotification" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9246B33C24ABAA930065B0D5;
+			productRefGroup = 9246B33C24ABAA930065B0D5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9246B34C24ABAA930065B0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9246B34D24ABAA930065B0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9246B34024ABAA930065B0D5 /* Build configuration list for PBXProject "ExposureNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9246B34C24ABAA930065B0D5 /* Debug */,
+				9246B34D24ABAA930065B0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9246B33D24ABAA930065B0D5 /* Project object */;
+}
